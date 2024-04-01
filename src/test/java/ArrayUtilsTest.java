@@ -83,6 +83,6 @@ public class ArrayUtilsTest {
     @Test
     public void testOddOrPosWithNegativesAndZeros() {
         // Test to ensure oddOrPos counts correctly with an array containing negatives and zeros.
-        assertEquals(1, ArrayUtils.oddOrPos(new int[]{-4, -2, 0}), "Array with negatives and zeros");
+        assertEquals(0, ArrayUtils.oddOrPos(new int[]{-4, -2, 0}), "Array with negatives and zeros");
     }
 }
